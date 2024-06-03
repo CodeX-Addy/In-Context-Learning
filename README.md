@@ -67,16 +67,8 @@ Few-shot learning involves providing the model with a few examples to learn the 
 ## Usage
 
 1. **Run the Jupyter notebook:**
-    - Open `notebooks/flan_t5_in_context_learning.ipynb` in SageMaker.
+    - Open `notebooks/In-Context.ipynb` in SageMaker.
     - Follow the instructions in the notebook to perform in-context learning.
-
-2. **Model Inference:**
-    - Use `src/inference.py` to run inference on new data.
-
-    ```bash
-    python src/inference.py --mode zero-shot --input "Your input text here"
-    ```
-
 
 ## License
 
